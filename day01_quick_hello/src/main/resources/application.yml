@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+person:
+  id: 99
+  name: 楚楚

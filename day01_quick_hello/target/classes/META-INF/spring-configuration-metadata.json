@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "itcoucou.day01_quick_hello.bean.Person",
+      "sourceType": "itcoucou.day01_quick_hello.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "itcoucou.day01_quick_hello.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "itcoucou.day01_quick_hello.bean.Person"
+    }
+  ],
+  "hints": []
+}
