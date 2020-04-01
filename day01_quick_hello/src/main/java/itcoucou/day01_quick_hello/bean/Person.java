@@ -1,15 +1,20 @@
 package itcoucou.day01_quick_hello.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
+
+import javax.validation.Valid;
+import javax.validation.constraints.Email;
 
 @Component
-@ConfigurationProperties(prefix = "person")
-/**
- * 将配置文件汇总的每一个属性的值映射到这个组件中
- */
+@ConfigurationProperties(prefix = "person") //该注解定位的配置文件为全局配置文件
+//@Validated
+@PropertySource(value = {"classpath:person.properties"})
 public class Person {
     private Integer id;
+    //@Email 这个注解的意思是name的格式必须是邮箱的格式
     private String name;
 
     public Integer getId() {

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6fe6c32-4997-4b5f-990e-3b6e7c606ca1" name="Default Changelist" comment="" />
+    <list default="true" id="a6fe6c32-4997-4b5f-990e-3b6e7c606ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/config/MyAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/resources/person.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/day02-config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/src/main/java/com/config/Day02ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02-config/src/test/java/com/config/Day02ConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_quick_hello/src/test/java/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/src/test/java/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_quick_hello/target/classes/itcoucou/day01_quick_hello/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/target/classes/itcoucou/day01_quick_hello/bean/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_quick_hello/target/test-classes/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/target/test-classes/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -37,7 +61,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZtbHQKSp7S3tWvALRdnhMEKyxH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -50,7 +85,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Day01QuickHelloApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.Day02ConfigApplicationTests.contextLoads">
     <configuration name="Day01QuickHelloApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day01_quick_hello" />
       <extension name="coverage">
@@ -81,9 +116,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day01QuickHelloApplicationTests.testHelloService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day01_quick_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itcoucou.day01_quick_hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itcoucou.day01_quick_hello" />
+      <option name="MAIN_CLASS_NAME" value="itcoucou.day01_quick_hello.Day01QuickHelloApplicationTests" />
+      <option name="METHOD_NAME" value="testHelloService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02ConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day02-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.config" />
+      <option name="MAIN_CLASS_NAME" value="com.config.Day02ConfigApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day01QuickHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="day01_quick_hello" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="itcoucou.day01_quick_hello.Day01QuickHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day02ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="day02-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.Day02ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,6 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day02ConfigApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Day01QuickHelloApplicationTests.testHelloService" />
         <item itemvalue="JUnit.Day01QuickHelloApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.HelloWorld" />
       </list>
@@ -121,11 +197,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585661248768</updated>
-      <workItem from="1585661250030" duration="6316000" />
+      <workItem from="1585661250030" duration="7092000" />
+      <workItem from="1585702688380" duration="1267000" />
+      <workItem from="1585736385560" duration="7891000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
