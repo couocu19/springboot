@@ -2,26 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6fe6c32-4997-4b5f-990e-3b6e7c606ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/config/MyAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/resources/person.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/day02-config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/src/main/java/com/config/Day02ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02-config/src/test/java/com/config/Day02ConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/src/main/java/com/coucou/day04_web_example/Day04WebExampleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/src/test/java/com/coucou/day04_web_example/Day04WebExampleApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/src/main/java/itcoucou/day01_quick_hello/bean/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_quick_hello/src/test/java/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/src/test/java/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_quick_hello/target/classes/itcoucou/day01_quick_hello/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/target/classes/itcoucou/day01_quick_hello/bean/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_quick_hello/target/test-classes/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/target/test-classes/itcoucou/day01_quick_hello/Day01QuickHelloApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02-config/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02-config/target/test-classes/com/config/Day02ConfigApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/target/test-classes/com/config/Day02ConfigApplicationTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Day02ConfigApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.Day02ConfigApplication">
     <configuration name="Day01QuickHelloApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day01_quick_hello" />
       <extension name="coverage">
@@ -162,6 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day04WebExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="day04_web_example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.coucou.day04_web_example.Day04WebExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="day01_hello" />
       <extension name="coverage">
@@ -199,7 +206,10 @@
       <updated>1585661248768</updated>
       <workItem from="1585661250030" duration="7092000" />
       <workItem from="1585702688380" duration="1267000" />
-      <workItem from="1585736385560" duration="7891000" />
+      <workItem from="1585736385560" duration="8081000" />
+      <workItem from="1585925280329" duration="36000" />
+      <workItem from="1586005387589" duration="421000" />
+      <workItem from="1586005962244" duration="3053000" />
     </task>
     <servers />
   </component>

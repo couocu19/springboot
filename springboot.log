@@ -1,0 +1,11 @@
+2020-04-04 21:28:05.970  INFO 12528 --- [main] com.config.Day02ConfigApplication        : Starting Day02ConfigApplication on DESKTOP-1D7DF2N with PID 12528 (D:\springboot\day02-config\target\classes started by 11310 in D:\springboot)
+2020-04-04 21:28:05.973 DEBUG 12528 --- [main] com.config.Day02ConfigApplication        : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-04 21:28:05.974  INFO 12528 --- [main] com.config.Day02ConfigApplication        : No active profile set, falling back to default profiles: default
+2020-04-04 21:28:06.842  INFO 12528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-04 21:28:06.847  INFO 12528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-04 21:28:06.848  INFO 12528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-04 21:28:06.910  INFO 12528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-04 21:28:06.911  INFO 12528 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 885 ms
+2020-04-04 21:28:07.034  INFO 12528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-04 21:28:07.181  INFO 12528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-04 21:28:07.183  INFO 12528 --- [main] com.config.Day02ConfigApplication        : Started Day02ConfigApplication in 1.622 seconds (JVM running for 2.321)
