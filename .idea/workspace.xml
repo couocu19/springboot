@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6fe6c32-4997-4b5f-990e-3b6e7c606ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/src/main/java/com/coucou/day04_web_example/Day04WebExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04_web_example/src/test/java/com/coucou/day04_web_example/Day04WebExampleApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_web_example/day04_web_example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02-config/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02-config/target/test-classes/com/config/Day02ConfigApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/target/test-classes/com/config/Day02ConfigApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04_web_example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04_web_example/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04_web_example/mvnw.cmd" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="day01_hello" />
       <extension name="coverage">
@@ -210,6 +219,11 @@
       <workItem from="1585925280329" duration="36000" />
       <workItem from="1586005387589" duration="421000" />
       <workItem from="1586005962244" duration="3053000" />
+      <workItem from="1586064916783" duration="316000" />
+      <workItem from="1586073213997" duration="176000" />
+      <workItem from="1586349758875" duration="2192000" />
+      <workItem from="1586361100562" duration="861000" />
+      <workItem from="1586413429663" duration="634000" />
     </task>
     <servers />
   </component>

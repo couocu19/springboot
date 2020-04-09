@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    mimas:
+      driverClassName: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/jdbc
+      username: root
+      password: 12345678
+logging:
+  level:
+    com.learnhow.springboot.mybatis.dao: debug
