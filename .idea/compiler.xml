@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
+        <module name="day01_quick_hello" />
+        <module name="island" />
         <module name="day04_web_example" />
         <module name="day02-config" />
-        <module name="day01_quick_hello" />
         <module name="day01_hello" />
+        <module name="xiyouProject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,8 @@
       <module name="day02-config" target="1.8" />
       <module name="day04_web_example" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="island" target="1.8" />
+      <module name="xiyouProject" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,6 +31,7 @@
       <module name="day02-config" options="-parameters" />
       <module name="day04_web_example" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="island" options="-parameters" />
     </option>
   </component>
 </project>
