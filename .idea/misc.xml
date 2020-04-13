@@ -12,14 +12,11 @@
         <option value="$PROJECT_DIR$/day01_hello/pom.xml" />
         <option value="$PROJECT_DIR$/day01_quick_hello/pom.xml" />
         <option value="$PROJECT_DIR$/day02-config/pom.xml" />
-        <option value="$PROJECT_DIR$/day04_web_example/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/island/pom.xml" />
         <option value="$PROJECT_DIR$/../xiyouProject/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/island/src/main/resources/application.properties" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8.0_202" project-jdk-type="JavaSDK" />
 </project>

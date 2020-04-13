@@ -9,6 +9,8 @@ public class Passage {
 
     private String title;
 
+    private String content;
+
     private String coverImage;
 
     private Integer praiseCount;
@@ -23,12 +25,11 @@ public class Passage {
 
     private Date time;
 
-    private String content;
-
-    public Passage(Integer id, Integer userId, String title, String coverImage, Integer praiseCount, String praideId, Integer collectedCount, String collectId, Integer commentCount, Date time, String content) {
+    public Passage(Integer id, Integer userId, String title, String content, String coverImage, Integer praiseCount, String praideId, Integer collectedCount, String collectId, Integer commentCount, Date time) {
         this.id = id;
         this.userId = userId;
         this.title = title;
+        this.content = content;
         this.coverImage = coverImage;
         this.praiseCount = praiseCount;
         this.praideId = praideId;
@@ -36,7 +37,6 @@ public class Passage {
         this.collectId = collectId;
         this.commentCount = commentCount;
         this.time = time;
-        this.content = content;
     }
 
     public Passage() {
@@ -65,6 +65,14 @@ public class Passage {
 
     public void setTitle(String title) {
         this.title = title == null ? null : title.trim();
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content == null ? null : content.trim();
     }
 
     public String getCoverImage() {
@@ -121,13 +129,5 @@ public class Passage {
 
     public void setTime(Date time) {
         this.time = time;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content == null ? null : content.trim();
     }
 }

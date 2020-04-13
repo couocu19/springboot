@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
-        <module name="day01_quick_hello" />
-        <module name="island" />
-        <module name="day04_web_example" />
-        <module name="day02-config" />
         <module name="day01_hello" />
+        <module name="day01_quick_hello" />
+        <module name="day02-config" />
+        <module name="demo" />
+        <module name="island" />
         <module name="xiyouProject" />
       </profile>
     </annotationProcessing>

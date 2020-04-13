@@ -13,7 +13,5 @@ public interface PassageMapper {
 
     int updateByPrimaryKeySelective(Passage record);
 
-    int updateByPrimaryKeyWithBLOBs(Passage record);
-
     int updateByPrimaryKey(Passage record);
 }
