@@ -1,7 +1,9 @@
 package com.dao;
 
 import com.pojo.Dynamics;
+import org.apache.ibatis.annotations.Mapper;
 
+//@Mapper
 public interface DynamicsMapper {
     int deleteByPrimaryKey(Integer id);
 

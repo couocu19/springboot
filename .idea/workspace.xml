@@ -2,60 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6fe6c32-4997-4b5f-990e-3b6e7c606ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01_hello/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/island/src/main/java/com/controller/CodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/island/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/island/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/island/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/island/src/main/java/com/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/island/src/main/java/com/util/QiniuUploadImageUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xiyouProject/xiyouProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Beta4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_2_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_hello/day01_hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_hello/day01_hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01_quick_hello/day01_quick_hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day01_quick_hello/day01_quick_hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02-config/day02-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day02-config/day02-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/day04_web_example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/src/main/java/com/coucou/day04_web_example/Day04WebExampleApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_web_example/src/test/java/com/coucou/day04_web_example/Day04WebExampleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_hello/src/main/java/com/init/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/day01_hello/src/main/java/com/init/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day01_hello/target/classes/com/init/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/day01_hello/target/classes/com/init/HelloWorld.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/island/island.iml" beforeDir="false" afterPath="$PROJECT_DIR$/island/island.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/island/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/island/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/IslandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/MessageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/PassageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/Island.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/Passage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/UserWithBLOBs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/DynamicsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/dao/DynamicsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/IslandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/dao/IslandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/PassageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/dao/PassageMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/island/IslandApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/island/IslandApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/Dynamics.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/pojo/Dynamics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/Island.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/pojo/Island.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/Passage.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/pojo/Passage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/java/com/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/java/com/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/island/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/resources/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/resources/mappers/IslandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/resources/mappers/MessageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/resources/mappers/PassageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/island/src/main/resources/mappers/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/src/test/java/com/island/IslandApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/island/src/test/java/com/island/IslandApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/island/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/island/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/dao/IslandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/dao/MessageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/dao/PassageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/island/IslandApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/island/Swagger2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/pojo/Island.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/pojo/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/pojo/Passage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/com/pojo/UserWithBLOBs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/mappers/IslandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/island/target/classes/mappers/IslandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/mappers/MessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/mappers/PassageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/island/target/classes/mappers/PassageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/island/target/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/island/target/test-classes/com/island/IslandApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/island/target/test-classes/com/island/IslandApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xiyouProject/.idea/artifacts/xiyouProject_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../xiyouProject/.idea/artifacts/xiyouProject_war10.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../xiyouProject/.idea/artifacts/xiyouProject_war11.xml" beforeDir="false" />
@@ -119,6 +110,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -158,9 +150,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586786370837" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586919075848" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/island/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm-project/eecommercell" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -169,29 +161,46 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.1541502" />
     <property name="project.structure.side.proportion" value="0.24649532" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.island" />
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springboot\island\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day01QuickHelloApplicationTests.contextLoads">
-    <configuration name="Day01QuickHelloApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day01_quick_hello" />
+  <component name="RunManager" selected="Application.IslandApplication">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.init.HelloWorld" />
+      <module name="day01_hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="itcoucou.day01_quick_hello.*" />
+          <option name="PATTERN" value="com.init.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="itcoucou.day01_quick_hello" />
-      <option name="MAIN_CLASS_NAME" value="itcoucou.day01_quick_hello.Day01QuickHelloApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IslandApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.island.IslandApplication" />
+      <module name="island" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.island.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +237,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IslandApplicationTests.sendCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="island" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.island.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.island" />
+      <option name="MAIN_CLASS_NAME" value="com.island.IslandApplicationTests" />
+      <option name="METHOD_NAME" value="sendCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day01QuickHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="day01_quick_hello" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="itcoucou.day01_quick_hello.Day01QuickHelloApplication" />
@@ -256,19 +281,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="day01_hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.init.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.init.HelloWorld" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IslandApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="island" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.island.IslandApplication" />
@@ -278,9 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IslandApplication" />
+        <item itemvalue="JUnit.IslandApplicationTests.sendCode" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="JUnit.Day02ConfigApplicationTests.contextLoads" />
         <item itemvalue="JUnit.Day01QuickHelloApplicationTests.testHelloService" />
-        <item itemvalue="JUnit.Day01QuickHelloApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -318,11 +332,12 @@
       <workItem from="1586783287262" duration="3270000" />
       <workItem from="1586786602161" duration="702000" />
       <workItem from="1586788553832" duration="369000" />
+      <workItem from="1586919043548" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7631000" />
+    <option name="totallyTimeSpent" value="8255000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -354,17 +369,61 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1587036060677">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1587036060677" />
     <state x="492" y="232" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586789604032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="492" y="232" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1586789604032" />
-    <state x="-9" y="0" key="SettingsEditor" timestamp="1586791531835">
+    <state x="340" y="264" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587043446466">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="-9" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586791531835" />
+    <state x="340" y="264" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1587043446466" />
+    <state x="414" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587043447841">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="414" y="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1587043447841" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586791687173">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586791687173" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587038332229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587038332229" />
+    <state width="1237" height="197" key="GridCell.Tab.0.bottom" timestamp="1587046334314">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="197" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587046334314" />
+    <state width="1237" height="197" key="GridCell.Tab.0.center" timestamp="1587046334314">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="197" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587046334314" />
+    <state width="1237" height="197" key="GridCell.Tab.0.left" timestamp="1587046334313">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="197" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587046334313" />
+    <state width="1237" height="197" key="GridCell.Tab.0.right" timestamp="1587046334314">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="197" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587046334314" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587052269960">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587052269960" />
     <state x="336" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1586789546495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="336" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586789546495" />
+    <state x="28" y="1" key="new project wizard" timestamp="1586919388086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586919388086" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587043313750">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587043313750" />
   </component>
 </project>

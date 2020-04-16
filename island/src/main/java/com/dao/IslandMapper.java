@@ -1,7 +1,9 @@
 package com.dao;
 
 import com.pojo.Island;
+import org.apache.ibatis.annotations.Mapper;
 
+//@Mapper
 public interface IslandMapper {
     int deleteByPrimaryKey(Integer id);
 

@@ -1,7 +1,11 @@
 package com.dao;
 
 import com.pojo.User;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
+
+//@Mapper
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -14,4 +18,6 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    User checkLogin(@Param("username") String username, @Param("password") String password);
 }

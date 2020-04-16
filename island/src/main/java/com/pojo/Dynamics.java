@@ -1,7 +1,10 @@
 package com.pojo;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Date;
 
+@Component
 public class Dynamics {
     private Integer id;
 
